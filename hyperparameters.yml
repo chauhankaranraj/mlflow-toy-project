@@ -1,0 +1,48 @@
+- hyperparam_set:
+    hundreds: 3
+    ones: 6
+    tens: 4
+- hyperparam_set:
+    hundreds: 5
+    ones: 6
+    tens: 4
+- hyperparam_set:
+    hundreds: 3
+    ones: 6
+    tens: 7
+- hyperparam_set:
+    hundreds: 5
+    ones: 6
+    tens: 7
+- hyperparam_set:
+    hundreds: 3
+    ones: 1
+    tens: 4
+- hyperparam_set:
+    hundreds: 5
+    ones: 1
+    tens: 4
+- hyperparam_set:
+    hundreds: 3
+    ones: 1
+    tens: 7
+- hyperparam_set:
+    hundreds: 5
+    ones: 1
+    tens: 7
+- hyperparam_set:
+    hundreds: 3
+    ones: 9
+    tens: 4
+- hyperparam_set:
+    hundreds: 5
+    ones: 9
+    tens: 4
+- hyperparam_set:
+    hundreds: 3
+    ones: 9
+    tens: 7
+- hyperparam_set:
+    hundreds: 5
+    ones: 9
+    tens: 7
