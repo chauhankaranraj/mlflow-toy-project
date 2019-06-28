@@ -1,3 +1,4 @@
+import os
 import yaml
 import pprint
 import random
@@ -35,8 +36,11 @@ def calculate_value(ones, tens, hundreds):
 
 
 if __name__ == "__main__":
+    # get the id that will be used to access a hyperparam set
+    job_id = os.environ.get("HYPERPARAM_SET_ID")
+
     # get hyperparameters for this specific job
-    currjob_hyperparams = get_hyperparameters(random.randint(1, 5))
+    currjob_hyperparams = get_hyperparameters(job_id)
 
     # run training
     calculate_value(currjob_hyperparams["ones"],
